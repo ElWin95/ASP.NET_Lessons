@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FirstWebAppP416/1.0.0": {
+        "runtime": {
+          "FirstWebAppP416.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FirstWebAppP416/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

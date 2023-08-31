@@ -1,1 +1,2 @@
-Salam
+Terminal: tracert google.com - for IP address 
+Base64.guru - image cevirir

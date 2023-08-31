@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "aS9I0PrvTdr5bImFuafraIrefxObfiBJ8+GIMj5wjJU=",
+  "Source": "P416FirstWebApp",
+  "BasePath": "_content/P416FirstWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "P416FirstWebApp\\wwwroot",
+      "Source": "P416FirstWebApp",
+      "ContentRoot": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\01. Lesson\\P416FirstWebApp\\P416FirstWebApp\\wwwroot\\",
+      "BasePath": "_content/P416FirstWebApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\01. Lesson\\P416FirstWebApp\\P416FirstWebApp\\wwwroot\\img\\website.jpg",
+      "SourceId": "P416FirstWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\01. Lesson\\P416FirstWebApp\\P416FirstWebApp\\wwwroot\\",
+      "BasePath": "_content/P416FirstWebApp",
+      "RelativePath": "img/website.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\website.jpg"
+    }
+  ]
+}

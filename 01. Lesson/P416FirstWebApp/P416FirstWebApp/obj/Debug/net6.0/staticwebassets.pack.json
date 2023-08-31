@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\01. Lesson\\P416FirstWebApp\\P416FirstWebApp\\wwwroot\\img\\website.jpg",
+      "PackagePath": "staticwebassets\\img\\website.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.P416FirstWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.P416FirstWebApp.props",
+      "PackagePath": "build\\P416FirstWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.P416FirstWebApp.props",
+      "PackagePath": "buildMultiTargeting\\P416FirstWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.P416FirstWebApp.props",
+      "PackagePath": "buildTransitive\\P416FirstWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
