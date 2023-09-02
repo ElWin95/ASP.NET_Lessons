@@ -25,3 +25,5 @@ C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\01. Lesson\P416Fi
 C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\01. Lesson\P416FirstWebApp\P416FirstWebApp\obj\Debug\net6.0\P416FirstWebApp.genruntimeconfig.cache
 C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\01. Lesson\P416FirstWebApp\P416FirstWebApp\obj\Debug\net6.0\ref\P416FirstWebApp.dll
 C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\01. Lesson\P416FirstWebApp\P416FirstWebApp\bin\Debug\net6.0\P416FirstWebApp.staticwebassets.runtime.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\01. Lesson\P416FirstWebApp\P416FirstWebApp\obj\Debug\net6.0\P416FirstWebApp.RazorAssemblyInfo.cache
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\01. Lesson\P416FirstWebApp\P416FirstWebApp\obj\Debug\net6.0\P416FirstWebApp.RazorAssemblyInfo.cs

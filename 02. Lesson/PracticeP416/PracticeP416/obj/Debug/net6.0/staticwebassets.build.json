@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "EH8gJuIQhIDH0+LbeDsDIFQMJwbUoHrOrN2aA4lXGy0=",
+  "Source": "PracticeP416",
+  "BasePath": "_content/PracticeP416",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PracticeP416\\wwwroot",
+      "Source": "PracticeP416",
+      "ContentRoot": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\02. Lesson\\PracticeP416\\PracticeP416\\wwwroot\\",
+      "BasePath": "_content/PracticeP416",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

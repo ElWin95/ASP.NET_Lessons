@@ -15,7 +15,7 @@ var app = builder.Build();
 
 app.MapControllerRoute(
     "default",
-    "{controller=test}/{action=index}/{id?}");
+    "{controller=home}/{action=index}/{id?}");
 app.UseStaticFiles();
 
 

@@ -1,0 +1,12 @@
+﻿
+@model List<Student>
+<h1>Home page</h1>
+
+@foreach (var item in Model)
+{
+    <a href="/home/about/@item.Id">
+        <h1>@item.Id @item.Name @item.Age</h1>
+    </a>
+}
+
+@*<a href="/home/about">go to about</a>*@
