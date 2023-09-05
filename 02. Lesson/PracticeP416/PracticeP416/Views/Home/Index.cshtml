@@ -1,7 +1,19 @@
-﻿
+﻿@*@model HomeVM;*@
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+@*<h1>Index</h1>*@
+@*<p>@ViewData["name"]</p>
+<p>@ViewBag.Surname</p>
+<ul>
+    @foreach (var item in ViewBag.StuList)
+    {
+        <li>@item.StuName</li>
+    }
+</ul>
+<p>@TempData["Age"]</p>*@
 
+@*<p>@Model.Age</p>
+<p>@Model.Group.GroupName</p>
+<p>@Model.Student.StuName</p>*@

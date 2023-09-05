@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\02. Lesson\PracticeP416\PracticeP416
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/02. Lesson/PracticeP416/PracticeP416/Views/Group/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/02. Lesson/PracticeP416/PracticeP416/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +30,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/02. Lesson/PracticeP416/PracticeP416/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/02. Lesson/PracticeP416/PracticeP416/Views/Student/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/02. Lesson/PracticeP416/PracticeP416/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/02. Lesson/PracticeP416/PracticeP416/Views/_ViewImports.cshtml]
