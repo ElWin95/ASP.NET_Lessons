@@ -11,5 +11,6 @@ namespace MentorApp.DAL
         public DbSet<Pricing> Pricings { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<PricingService> PricingServices { get; set; }
+        public DbSet<Feature> Features { get; set; }
     }
 }
