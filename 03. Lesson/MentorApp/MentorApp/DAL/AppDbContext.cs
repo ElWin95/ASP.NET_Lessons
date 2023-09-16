@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using MentorApp.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace MentorApp.DAL
 {
@@ -7,5 +8,8 @@ namespace MentorApp.DAL
         public AppDbContext(DbContextOptions options) : base(options)
         {
         }
+        public DbSet<Pricing> Pricings { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<PricingService> PricingServices { get; set; }
     }
 }
