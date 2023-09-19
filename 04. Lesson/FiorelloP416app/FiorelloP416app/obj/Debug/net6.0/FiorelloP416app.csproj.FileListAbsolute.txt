@@ -1,0 +1,126 @@
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\appsettings.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\FiorelloP416app.staticwebassets.runtime.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\FiorelloP416app.exe
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\FiorelloP416app.deps.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\FiorelloP416app.runtimeconfig.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\FiorelloP416app.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\FiorelloP416app.pdb
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Humanizer.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.csproj.AssemblyReference.cache
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.AssemblyInfoInputs.cache
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.AssemblyInfo.cs
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.csproj.CoreCompileInputs.cache
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.RazorAssemblyInfo.cache
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.RazorAssemblyInfo.cs
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets\msbuild.FiorelloP416app.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets\msbuild.build.FiorelloP416app.props
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FiorelloP416app.props
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FiorelloP416app.props
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\scopedcss\bundle\FiorelloP416app.styles.css
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.csproj.CopyComplete
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\refint\FiorelloP416app.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.pdb
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.genruntimeconfig.cache
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\test\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\ref\FiorelloP416app.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\appsettings.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\FiorelloP416app.staticwebassets.runtime.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\FiorelloP416app.exe
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\FiorelloP416app.deps.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\FiorelloP416app.runtimeconfig.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\FiorelloP416app.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\FiorelloP416app.pdb
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Humanizer.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.csproj.AssemblyReference.cache
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.AssemblyInfoInputs.cache
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.AssemblyInfo.cs
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.csproj.CoreCompileInputs.cache
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.RazorAssemblyInfo.cache
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.RazorAssemblyInfo.cs
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets\msbuild.FiorelloP416app.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets\msbuild.build.FiorelloP416app.props
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FiorelloP416app.props
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FiorelloP416app.props
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\scopedcss\bundle\FiorelloP416app.styles.css
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.csproj.CopyComplete
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\refint\FiorelloP416app.dll
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.pdb
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\FiorelloP416app.genruntimeconfig.cache
+C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\04. Lesson\FiorelloP416app\FiorelloP416app\obj\Debug\net6.0\ref\FiorelloP416app.dll
