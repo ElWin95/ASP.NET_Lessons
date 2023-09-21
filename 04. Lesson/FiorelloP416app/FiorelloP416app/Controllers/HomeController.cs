@@ -20,7 +20,8 @@ namespace FiorelloP416app.Controllers
             vm.Sliders = _appDbContext.Sliders.ToList();
             vm.SliderContent = _appDbContext.SliderContents.FirstOrDefault();
             vm.Categories = _appDbContext.Categories.ToList();
-            vm.Products = _appDbContext.Products.Include(p=>p.ProductImages).ToList();
+            vm.Products = _appDbContext.Products
+                .Include(p=>p.ProductImages).ToList();
             return View(vm);
         }
     }

@@ -1,5 +1,18 @@
 $(document).ready(function () {
+    //loadMore
+    let skip = 4;
+    $(document).on("click", "#loadMoreBtn", function () {
+        $.ajax({
+            method: "get",
+            url: "/product/loadmore?skip=" + skip,
+            success: function (data) {
+                console.log(data);
+            }
+        })
+    })
+    //$("#loadMoreBtn").click(function () {
 
+    //})
     // HEADER
 
     $(document).on('click', '#search', function () {
