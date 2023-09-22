@@ -17,11 +17,14 @@ namespace FiorelloP416app.Controllers
 
         public IActionResult Index()
         {
-            var products = _appDbContext.Products
-                .Include(p => p.Category)
-                .Include(p => p.ProductImages)
-                .Take(4)
-                .ToList();
+            var query = _appDbContext.Products.AsQueryable();
+            var products = query
+             .Include(p => p.Category)
+             .Include(p => p.ProductImages)
+             .Take(4)
+             .ToList();
+            ViewBag.ProductCount = query.Count();
+         
             return View(products);
         }
         public IActionResult LoadMore(int skip)
@@ -32,6 +35,7 @@ namespace FiorelloP416app.Controllers
                 .Skip(skip)
                 .Take(4)
                 .ToList();
+                skip += 4;
 
             return PartialView("_LoadMorePartial",products);
         }
