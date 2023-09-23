@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FiorelloP416app.props" />
+</Project>

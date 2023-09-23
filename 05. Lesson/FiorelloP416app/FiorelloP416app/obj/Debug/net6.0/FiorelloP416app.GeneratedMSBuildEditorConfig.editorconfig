@@ -1,0 +1,41 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FiorelloP416app
+build_property.RootNamespace = FiorelloP416app
+build_property.ProjectDir = C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\05. Lesson\FiorelloP416app\FiorelloP416app\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\05. Lesson\FiorelloP416app\FiorelloP416app
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/05. Lesson/FiorelloP416app/FiorelloP416app/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/05. Lesson/FiorelloP416app/FiorelloP416app/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/05. Lesson/FiorelloP416app/FiorelloP416app/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/05. Lesson/FiorelloP416app/FiorelloP416app/Views/Shared/_LoadMorePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2FkTW9yZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/05. Lesson/FiorelloP416app/FiorelloP416app/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/05. Lesson/FiorelloP416app/FiorelloP416app/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
