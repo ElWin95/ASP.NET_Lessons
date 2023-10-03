@@ -39,6 +39,18 @@ namespace FiorelloP416app.Controllers
 
             return PartialView("_LoadMorePartial",products);
         }
+        public IActionResult Search(string search)
+        {
+            var products = _appDbContext.Products
+                .Include(p => p.Category)
+                .Include(p => p.ProductImages)
+                .Where(p=>p.Name.ToLower().Contains(search.ToLower()))
+                .OrderByDescending(p=>p.Id)
+                .Take(10)
+                .ToList() ;
+
+            return PartialView("_SearchPartial", products);
+        }
         //public IActionResult LoadMore()
         //{
         //    var products = _appDbContext.Products
