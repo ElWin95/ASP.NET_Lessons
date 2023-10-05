@@ -15,6 +15,10 @@ namespace FiorelloP416
             {
                 opt.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
+            services.AddSession(option =>
+            {
+                option.IdleTimeout = TimeSpan.FromMinutes(1);
+            });
         }
     }
 }
