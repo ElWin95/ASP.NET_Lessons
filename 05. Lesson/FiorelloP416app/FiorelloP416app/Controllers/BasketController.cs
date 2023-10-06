@@ -23,16 +23,30 @@ namespace FiorelloP416app.Controllers
             if (id == null) return NotFound();
             var existProduct = _appDbContext.Products.FirstOrDefault(p => p.Id == id);
             if (existProduct == null) return NotFound();
-            List<Product> basket = new();
-            basket.Add(existProduct);
-            Response.Cookies.Append("basket", JsonConvert.SerializeObject(basket), new CookieOptions { MaxAge = TimeSpan.FromMinutes(20) });
+            List<Product> list;
+            string basket = Request.Cookies["basket"];
+            if (basket==null)
+            {
+                list = new();
+            }
+            else
+            {
+                list = JsonConvert.DeserializeObject<List<Product>>(basket);
+            }
+
+            
+            list.Add(existProduct);
+            Response.Cookies.Append("basket", JsonConvert.SerializeObject(list), 
+                new CookieOptions { MaxAge = TimeSpan.FromMinutes(20) });
             return Content("set olundu....");
         }
-        public IActionResult GetData()
+        public IActionResult ShowBasket()
         {
             ////var data = HttpContext.Session.GetString("group");
             //var data = Request.Cookies["group"];
-            return Content($"value: ");
+            string basket = Request.Cookies["basket"];
+            var products = JsonConvert.DeserializeObject<List<Product>>(basket);
+            return Content($"value: {products[0].Name}");
         }
 
     }
