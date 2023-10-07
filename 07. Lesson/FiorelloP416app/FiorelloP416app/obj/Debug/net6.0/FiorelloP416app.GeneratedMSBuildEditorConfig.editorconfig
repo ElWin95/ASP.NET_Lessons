@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\emust\Documents\ElvinP416\04. ASP.NET\ASP.NET_Lessons\07. Lesson\FiorelloP416app\FiorelloP416app
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/07. Lesson/FiorelloP416app/FiorelloP416app/Areas/AdminArea/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXENhdGVnb3J5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/emust/Documents/ElvinP416/04. ASP.NET/ASP.NET_Lessons/07. Lesson/FiorelloP416app/FiorelloP416app/Areas/AdminArea/Views/Category/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXENhdGVnb3J5XERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
