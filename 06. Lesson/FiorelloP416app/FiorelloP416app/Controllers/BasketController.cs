@@ -28,30 +28,9 @@ namespace FiorelloP416app.Controllers
                 .FirstOrDefault(p => p.Id == id);
             if (existProduct == null) return NotFound();
 
-            List<BasketVM> list;
-            string basket = Request.Cookies["basket"];
-            if (basket==null)
-            {
-                list = new();
-            }
-            else
-            {
-                list = JsonConvert.DeserializeObject<List<BasketVM>>(basket);
-            }
+            List<BasketVM> list = CheckBasket();
 
-            var existProductInBasket = list.FirstOrDefault(p => p.Id == existProduct.Id);
-            if (existProductInBasket == null)
-            {
-                BasketVM basketVM = new();
-                basketVM.Id = existProduct.Id;
-                basketVM.BasketCount = 1;
-                list.Add(basketVM);
-            }
-            else
-            {
-                existProductInBasket.BasketCount++;
-            }
-            
+            CheckBasketItemCount(list, existProduct.Id);
             
             Response.Cookies.Append("basket", JsonConvert.SerializeObject(list), 
                 new CookieOptions { MaxAge = TimeSpan.FromMinutes(20) });
@@ -66,18 +45,67 @@ namespace FiorelloP416app.Controllers
             if (basket!=null)
             {
                 products = JsonConvert.DeserializeObject<List<BasketVM>>(basket);
-                foreach (var basketproduct in products)
-                {
-                    var exitProduct = _appDbContext.Products
-                        .Include(p=>p.ProductImages)
-                        .FirstOrDefault(p=>p.Id == basketproduct.Id);
-                    basketproduct.Name = exitProduct.Name;
-                    basketproduct.Price = exitProduct.Price;
-                    basketproduct.ImageUrl = exitProduct.ProductImages.FirstOrDefault(p => p.IsMain).ImageUrl;
-                }
+                products = UpdateBasket(products);
             }
             //return Content($"value: {products[0].Name}");
             return View(products);
+        }
+        private List<BasketVM> UpdateBasket(List<BasketVM> products)
+        {
+            foreach (var basketproduct in products)
+            {
+                var exitProduct = _appDbContext.Products
+                    .Include(p => p.ProductImages)
+                    .FirstOrDefault(p => p.Id == basketproduct.Id);
+                basketproduct.Name = exitProduct.Name;
+                basketproduct.Price = exitProduct.Price;
+                basketproduct.ImageUrl = exitProduct.ProductImages.FirstOrDefault(p => p.IsMain).ImageUrl;
+            }
+            return products;
+        }
+        private List<BasketVM> CheckBasket()
+        {
+            List<BasketVM> list;
+            string basket = Request.Cookies["basket"];
+            if (basket == null)
+            {
+                list = new();
+            }
+            else
+            {
+                list = JsonConvert.DeserializeObject<List<BasketVM>>(basket);
+            }
+            return list;
+        }
+        private void CheckBasketItemCount(List<BasketVM>list, int id)
+        {
+
+            var existProductInBasket = list.FirstOrDefault(p => p.Id == id);
+            if (existProductInBasket == null)
+            {
+                BasketVM basketVM = new();
+                basketVM.Id = id;
+                basketVM.BasketCount = 1;
+                list.Add(basketVM);
+            }
+            else
+            {
+                existProductInBasket.BasketCount++;
+            }
+        }
+
+        public IActionResult Remove(int? id)
+        {
+            string basket = Request.Cookies["basket"];
+            var products = JsonConvert.DeserializeObject<List<BasketVM>>(basket);
+            var basketItem = products.FirstOrDefault(p => p.Id == id);
+            if (basketItem != null)
+            {
+                products.Remove(basketItem);
+            }
+            Response.Cookies.Append("basket", JsonConvert.SerializeObject(products),
+                new CookieOptions { MaxAge=TimeSpan.FromMinutes(20)});
+            return RedirectToAction("ShowBasket");
         }
 
     }
