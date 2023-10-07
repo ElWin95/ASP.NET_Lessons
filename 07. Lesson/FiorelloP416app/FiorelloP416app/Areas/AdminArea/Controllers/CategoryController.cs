@@ -17,7 +17,7 @@ namespace FiorelloP416app.Areas.AdminArea.Controllers
 
         public IActionResult Index()
         {
-            return View(_appDbContext.Categories.ToList());
+            return View(_appDbContext.Categories.Where(c=>!c.isDeleted).ToList());
         }
         public IActionResult Detail(int? id)
         {
@@ -75,6 +75,16 @@ namespace FiorelloP416app.Areas.AdminArea.Controllers
 
             existCategory.Name = updateCategoryVM.Name;
             existCategory.Desc = updateCategoryVM.Desc;
+            _appDbContext.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Delete(int? id)
+        {
+            if (id == null) return NotFound(); 
+            var deletedCategory = _appDbContext.Categories.FirstOrDefault(c => c.Id == id);
+            if (deletedCategory == null) return NotFound();
+            deletedCategory.isDeleted = true;
             _appDbContext.SaveChanges();
             return RedirectToAction("Index");
         }
