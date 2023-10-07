@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RI+jCcUTVca1rDDxIskZ+PzZjDu0isHmA+FrTBSeLjY=",
+  "Hash": "hPmeDjLxMZx0vz82FljPEWTIHWnoFNsIODsG1sBmka0=",
   "Source": "FiorelloP416app",
   "BasePath": "_content/FiorelloP416app",
   "Mode": "Default",
@@ -2208,6 +2208,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\blog-feature-img-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\07. Lesson\\FiorelloP416app\\FiorelloP416app\\wwwroot\\img\\cc161c5f-ae0b-45e5-8e57-1da72803fc0fblog-feature-img-4.jpg",
+      "SourceId": "FiorelloP416app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\07. Lesson\\FiorelloP416app\\FiorelloP416app\\wwwroot\\",
+      "BasePath": "_content/FiorelloP416app",
+      "RelativePath": "img/cc161c5f-ae0b-45e5-8e57-1da72803fc0fblog-feature-img-4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cc161c5f-ae0b-45e5-8e57-1da72803fc0fblog-feature-img-4.jpg"
     },
     {
       "Identity": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\07. Lesson\\FiorelloP416app\\FiorelloP416app\\wwwroot\\img\\favicon.png",
