@@ -44,10 +44,7 @@ namespace FiorelloP416app.Controllers
             {
                 BasketVM basketVM = new();
                 basketVM.Id = existProduct.Id;
-                basketVM.Name = existProduct.Name;
-                basketVM.Price = existProduct.Price;
                 basketVM.BasketCount = 1;
-                basketVM.ImageUrl = existProduct.ProductImages.FirstOrDefault(p => p.IsMain).ImageUrl;
                 list.Add(basketVM);
             }
             else
@@ -58,14 +55,27 @@ namespace FiorelloP416app.Controllers
             
             Response.Cookies.Append("basket", JsonConvert.SerializeObject(list), 
                 new CookieOptions { MaxAge = TimeSpan.FromMinutes(20) });
-            return Content("set olundu....");
+            return RedirectToAction("Index", "Home");
         }
         public IActionResult ShowBasket()
         {
             ////var data = HttpContext.Session.GetString("group");
             //var data = Request.Cookies["group"];
             string basket = Request.Cookies["basket"];
-            var products = JsonConvert.DeserializeObject<List<BasketVM>>(basket);
+            List<BasketVM> products = new();
+            if (basket!=null)
+            {
+                products = JsonConvert.DeserializeObject<List<BasketVM>>(basket);
+                foreach (var basketproduct in products)
+                {
+                    var exitProduct = _appDbContext.Products
+                        .Include(p=>p.ProductImages)
+                        .FirstOrDefault(p=>p.Id == basketproduct.Id);
+                    basketproduct.Name = exitProduct.Name;
+                    basketproduct.Price = exitProduct.Price;
+                    basketproduct.ImageUrl = exitProduct.ProductImages.FirstOrDefault(p => p.IsMain).ImageUrl;
+                }
+            }
             //return Content($"value: {products[0].Name}");
             return View(products);
         }

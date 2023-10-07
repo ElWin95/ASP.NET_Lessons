@@ -1,4 +1,5 @@
 ﻿using FiorelloP416.DAL;
+using FiorelloP416app.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace FiorelloP416
@@ -19,6 +20,8 @@ namespace FiorelloP416
             {
                 option.IdleTimeout = TimeSpan.FromMinutes(1);
             });
+            services.AddScoped<IBasket, BasketService>();
+            services.AddHttpContextAccessor();
         }
     }
 }
