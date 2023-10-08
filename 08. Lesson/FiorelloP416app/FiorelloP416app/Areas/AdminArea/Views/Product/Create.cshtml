@@ -30,11 +30,8 @@
                             <input asp-for="Photos" multiple class="form-control" placeholder="Photos">
                             <span class="text-danger" asp-validation-for="Photos"></span>
                         </div>
-                        <select class="form-group">
-                            @foreach (var item in ViewBag.Categories)
-                            {
-                                <option value="@item.Id">@item.Name</option>
-                            }
+                        <select asp-for="CategoryId" class="form-group" asp-items="@ViewBag.Categories">
+
                            
                         </select>
                         <button type="submit" class="btn btn-primary mr-2">Submit</button>

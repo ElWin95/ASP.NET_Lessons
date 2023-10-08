@@ -9,5 +9,9 @@
         public int CategoryId { get; set; }
         public Category Category { get; set; }
         public List<ProductImage> ProductImages { get; set; }
+        public Product()
+        {
+            ProductImages = new List<ProductImage>();
+        }
     }
 }
