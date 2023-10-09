@@ -16,6 +16,10 @@
         {
             <span>@bookGenre.Genre.Name</span>
         }
+        @foreach (var item in book.BookImages)
+        {
+            <img src="~/img/@item.ImageUrl" width="200" height="200"/>
+        }
     }
 }
 else

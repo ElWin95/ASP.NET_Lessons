@@ -29,5 +29,6 @@ namespace FiorelloP416.DAL
         public DbSet <Author> Authors { get; set; }
         public DbSet <BookAuthor> BookAuthors { get; set; }
         public DbSet <BookGenre> BookGenres { get; set; }
+        public DbSet <BookImage> BookImages { get; set; }
     }
 }
