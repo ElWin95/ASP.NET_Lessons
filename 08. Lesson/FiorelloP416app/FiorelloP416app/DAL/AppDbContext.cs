@@ -1,5 +1,6 @@
 ﻿using FiorelloP416.Entities;
 using FiorelloP416app.Entities;
+using FiorelloP416app.Entities.DemoEntities;
 using Microsoft.EntityFrameworkCore;
 
 namespace FiorelloP416.DAL
@@ -23,5 +24,10 @@ namespace FiorelloP416.DAL
         public DbSet<Say> Says { get; set; }
         public DbSet<Instagram> Instagrams { get; set; }
         public DbSet <Bio> Bios { get; set; }
+        public DbSet <Book> Books { get; set; }
+        public DbSet <Genre> Genres { get; set; }
+        public DbSet <Author> Authors { get; set; }
+        public DbSet <BookAuthor> BookAuthors { get; set; }
+        public DbSet <BookGenre> BookGenres { get; set; }
     }
 }

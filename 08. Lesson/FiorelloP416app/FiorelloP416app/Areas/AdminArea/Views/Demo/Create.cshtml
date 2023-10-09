@@ -1,0 +1,41 @@
+﻿@model CreateBookVM
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Category Create form</h4>
+
+                    <form class="forms-sample" method="post">
+                        <div class="form-group">
+                            <label for="exampleInputUsername1">Name</label>
+                            <input asp-for="Name" class="form-control" placeholder="Name">
+                            <span class="text-danger" asp-validation-for="Name"></span>
+                        </div>
+                        <select asp-for="AuthorIds" class="form-select" aria-label="Default select example">
+                            @foreach (var item in ViewBag.Authors)
+                            {
+                                <option value="@item.Id">@item.Name</option>
+                            }
+                        </select>
+                        <select asp-for="GenreIds" class="form-select" aria-label="Default select example">
+                            @foreach (var item in ViewBag.Genres)
+                            {
+                                <option value="@item.Id">@item.Name</option>
+                            }
+                        </select>
+                        <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                        <a asp-controller="demo" asp-action="index" class="btn btn-light">Go Back</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+<partial name="_ValidationPartial"/>
+}

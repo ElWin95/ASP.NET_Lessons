@@ -193,6 +193,103 @@ namespace FiorelloP416app.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("FiorelloP416app.Entities.DemoEntities.Author", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Authors");
+                });
+
+            modelBuilder.Entity("FiorelloP416app.Entities.DemoEntities.Book", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Books");
+                });
+
+            modelBuilder.Entity("FiorelloP416app.Entities.DemoEntities.BookAuthor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("AuthorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AuthorId");
+
+                    b.HasIndex("BookId");
+
+                    b.ToTable("BookAuthors");
+                });
+
+            modelBuilder.Entity("FiorelloP416app.Entities.DemoEntities.BookGenre", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("GenreId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BookId");
+
+                    b.HasIndex("GenreId");
+
+                    b.ToTable("BookGenres");
+                });
+
+            modelBuilder.Entity("FiorelloP416app.Entities.DemoEntities.Genre", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Genres");
+                });
+
             modelBuilder.Entity("FiorelloP416app.Entities.ExpertName", b =>
                 {
                     b.Property<int>("Id")
@@ -390,6 +487,36 @@ namespace FiorelloP416app.Migrations
                     b.Navigation("Blog");
                 });
 
+            modelBuilder.Entity("FiorelloP416app.Entities.DemoEntities.BookAuthor", b =>
+                {
+                    b.HasOne("FiorelloP416app.Entities.DemoEntities.Author", null)
+                        .WithMany("BookAuthors")
+                        .HasForeignKey("AuthorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FiorelloP416app.Entities.DemoEntities.Book", null)
+                        .WithMany("BookAuthors")
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("FiorelloP416app.Entities.DemoEntities.BookGenre", b =>
+                {
+                    b.HasOne("FiorelloP416app.Entities.DemoEntities.Book", null)
+                        .WithMany("BookGenres")
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FiorelloP416app.Entities.DemoEntities.Genre", null)
+                        .WithMany("BookGenres")
+                        .HasForeignKey("GenreId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("FiorelloP416app.Entities.ExpertName", b =>
                 {
                     b.HasOne("FiorelloP416app.Entities.Experts", "Experts")
@@ -436,6 +563,23 @@ namespace FiorelloP416app.Migrations
             modelBuilder.Entity("FiorelloP416app.Entities.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("FiorelloP416app.Entities.DemoEntities.Author", b =>
+                {
+                    b.Navigation("BookAuthors");
+                });
+
+            modelBuilder.Entity("FiorelloP416app.Entities.DemoEntities.Book", b =>
+                {
+                    b.Navigation("BookAuthors");
+
+                    b.Navigation("BookGenres");
+                });
+
+            modelBuilder.Entity("FiorelloP416app.Entities.DemoEntities.Genre", b =>
+                {
+                    b.Navigation("BookGenres");
                 });
 
             modelBuilder.Entity("FiorelloP416app.Entities.Experts", b =>
