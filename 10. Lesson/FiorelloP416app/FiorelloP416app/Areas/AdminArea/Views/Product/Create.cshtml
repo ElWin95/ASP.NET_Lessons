@@ -1,0 +1,47 @@
+﻿@model CreateProductVM
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Product Create form</h4>
+
+                    <form class="forms-sample" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label asp-for="Name"></label>
+                            <input asp-for="Name" class="form-control" placeholder="Name">
+                            <span class="text-danger" asp-validation-for="Name"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Price"></label>
+                            <input asp-for="Price" class="form-control" placeholder="Price">
+                            <span class="text-danger" asp-validation-for="Price"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Count"></label>
+                            <input asp-for="Count" class="form-control" placeholder="Count">
+                            <span class="text-danger" asp-validation-for="Count"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Photos"></label>
+                            <input asp-for="Photos" multiple class="form-control" placeholder="Photos">
+                            <span class="text-danger" asp-validation-for="Photos"></span>
+                        </div>
+                        <select asp-for="CategoryId" class="form-group" asp-items="@ViewBag.Categories">
+
+                           
+                        </select>
+                        <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                        <a asp-controller="product" asp-action="index" class="btn btn-light">Go Back</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{ 
+    <partial name="_ValidationPartial" />
+}
