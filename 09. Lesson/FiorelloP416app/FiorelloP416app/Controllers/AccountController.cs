@@ -8,10 +8,14 @@ namespace FiorelloP416app.Controllers
     public class AccountController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
+        private readonly SignInManager<AppUser> _signInManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
 
-        public AccountController(UserManager<AppUser> userManager)
+        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
+            _signInManager = signInManager;
+            _roleManager = roleManager;
         }
 
         public IActionResult Register()
@@ -37,7 +41,25 @@ namespace FiorelloP416app.Controllers
                 return View(registerVM);
             }
 
+            await _signInManager.SignInAsync(appUser, true);
+
             return RedirectToAction("Index", "Home");
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Login(LoginVM loginVM)
+        {
+            return View();
         }
     }
 }

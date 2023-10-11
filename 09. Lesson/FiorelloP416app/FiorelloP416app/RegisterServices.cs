@@ -1,4 +1,5 @@
 ﻿using FiorelloP416.DAL;
+using FiorelloP416app;
 using FiorelloP416app.Entities;
 using FiorelloP416app.Services;
 using Microsoft.AspNetCore.Identity;
@@ -40,7 +41,9 @@ namespace FiorelloP416
                 identityOptions.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(10);
                 identityOptions.Lockout.AllowedForNewUsers = true;
             })
-                .AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
+                .AddDefaultTokenProviders()
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddErrorDescriber<CustomIdentityErrorDescriber>();
         }
     }
 }
