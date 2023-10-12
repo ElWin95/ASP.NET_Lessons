@@ -24,7 +24,10 @@ namespace FiorelloP416app.ViewComponents
             if (User.Identity.IsAuthenticated)
             {
                 var user = await _userManager.FindByNameAsync(User.Identity.Name);
-                ViewBag.UserFullName = user.FullName;
+                if(user != null)
+                {
+                    ViewBag.UserFullName = user.FullName;
+                }
             }
 
             var bio = _appDbContext.Bios.FirstOrDefault();

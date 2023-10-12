@@ -1,11 +1,13 @@
 ﻿using FiorelloP416.DAL;
 using FiorelloP416app.Entities;
 using FiorelloP416app.ModelViews.AdminCategory;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FiorelloP416app.Areas.AdminArea.Controllers
 {
     [Area("AdminArea")]
+    [Authorize(Roles ="Admin,Member")]
     public class CategoryController : Controller
     {
         private readonly AppDbContext _appDbContext;
@@ -14,11 +16,11 @@ namespace FiorelloP416app.Areas.AdminArea.Controllers
         {
             _appDbContext = appDbContext;
         }
-
         public IActionResult Index()
         {
             return View(_appDbContext.Categories.Where(c=>!c.isDeleted).ToList());
         }
+        [Authorize]
         public IActionResult Detail(int? id)
         {
             if (id == null) return NotFound();

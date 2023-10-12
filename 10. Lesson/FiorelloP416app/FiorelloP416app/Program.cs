@@ -8,6 +8,7 @@ builder.Services.Register(config);
 var app = builder.Build();
 app.UseSession();
 app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllerRoute(
             name: "areas",

@@ -42,7 +42,7 @@ namespace FiorelloP416app.Controllers
                 return View(registerVM);
             }
 
-            await _userManager.AddToRoleAsync(appUser, RoleEnum.Member.ToString());
+            await _userManager.AddToRoleAsync(appUser, RoleEnum.Admin.ToString());
 
             return RedirectToAction("login");
         }
@@ -58,7 +58,7 @@ namespace FiorelloP416app.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Login(LoginVM loginVM)
+        public async Task<IActionResult> Login(LoginVM loginVM, string? ReturnUrl)
         {
             if(!ModelState.IsValid) return View();
             AppUser user = await _userManager.FindByEmailAsync(loginVM.UserNameOrEmail);
@@ -84,18 +84,22 @@ namespace FiorelloP416app.Controllers
             }
 
             await _signInManager.SignInAsync(user, loginVM.Rememberme);
+            if(ReturnUrl != null)
+            {
+                return Redirect(ReturnUrl);
+            }
 
             return RedirectToAction("index", "home");
         }
 
-        public async Task<IActionResult> CreateRole()
-        {
-            foreach (var role in Enum.GetValues(typeof(RoleEnum)))
-            {
-                await _roleManager.CreateAsync(new IdentityRole { Name = role.ToString()});
-            }
-            return Content("role created oldu...");
-        }
+        //public async Task<IActionResult> CreateRole()
+        //{
+        //    foreach (var role in Enum.GetValues(typeof(RoleEnum)))
+        //    {
+        //        await _roleManager.CreateAsync(new IdentityRole { Name = role.ToString()});
+        //    }
+        //    return Content("role created oldu...");
+        //}
 
         //public async Task<IActionResult> CreateRole()
         //{
