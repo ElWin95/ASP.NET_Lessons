@@ -31,5 +31,14 @@ namespace FiorelloP416.DAL
         public DbSet <BookAuthor> BookAuthors { get; set; }
         public DbSet <BookGenre> BookGenres { get; set; }
         public DbSet <BookImage> BookImages { get; set; }
+        //protected override void OnModelCreating(ModelBuilder builder)
+        //{
+        //    builder.Entity<Author>().HasData(
+        //        new Author
+        //        {
+        //            Id = 1,
+        //            Name = "Elvin",
+        //        });
+        //}
     }
 }

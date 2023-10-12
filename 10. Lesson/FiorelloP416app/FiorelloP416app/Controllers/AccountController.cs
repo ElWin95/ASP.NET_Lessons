@@ -1,4 +1,5 @@
 ﻿using FiorelloP416app.Entities;
+using FiorelloP416app.Helpers;
 using FiorelloP416app.ModelViews.Account;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -40,6 +41,8 @@ namespace FiorelloP416app.Controllers
                 }
                 return View(registerVM);
             }
+
+            await _userManager.AddToRoleAsync(appUser, RoleEnum.Member.ToString());
 
             return RedirectToAction("login");
         }
@@ -84,5 +87,26 @@ namespace FiorelloP416app.Controllers
 
             return RedirectToAction("index", "home");
         }
+
+        public async Task<IActionResult> CreateRole()
+        {
+            foreach (var role in Enum.GetValues(typeof(RoleEnum)))
+            {
+                await _roleManager.CreateAsync(new IdentityRole { Name = role.ToString()});
+            }
+            return Content("role created oldu...");
+        }
+
+        //public async Task<IActionResult> CreateRole()
+        //{
+        //    if(await _roleManager.RoleExistsAsync("Member"))
+        //    {
+        //        await _roleManager.CreateAsync(new IdentityRole { Name = "Member" });
+        //    }
+
+        //    await _roleManager.CreateAsync(new IdentityRole { Name = "Admin" });
+        //    await _roleManager.CreateAsync(new IdentityRole { Name = "SuperAdmin" });
+        //    return Content("Rollar elave edildi...");
+        //} //seed data
     }
 }
