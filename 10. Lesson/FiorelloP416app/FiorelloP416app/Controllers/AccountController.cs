@@ -88,6 +88,15 @@ namespace FiorelloP416app.Controllers
             {
                 return Redirect(ReturnUrl);
             }
+            var roles = await _userManager.GetRolesAsync(user);
+            foreach (var item in roles)
+            {
+                if (item == "Admin")
+                {
+                    return RedirectToAction("index", "dashboard", new {area = "AdminArea"});
+                }
+            }
+            //var role = _userManager.GetUsersInRoleAsync("member");
 
             return RedirectToAction("index", "home");
         }
