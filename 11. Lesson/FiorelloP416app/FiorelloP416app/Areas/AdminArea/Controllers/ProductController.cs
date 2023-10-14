@@ -1,6 +1,7 @@
 ﻿using FiorelloP416.DAL;
 using FiorelloP416app.Entities;
 using FiorelloP416app.Extension;
+using FiorelloP416app.Helpers;
 using FiorelloP416app.ModelViews.AdminProduct;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -20,14 +21,21 @@ namespace FiorelloP416app.Areas.AdminArea.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int page=1, int take=4)
         {
             var products = _context.Products
                 .Include(p=>p.Category)
                 .Include(p => p.ProductImages)
                 .AsNoTracking()
+                .Skip((page-1)*take)
+                .Take(4)
                 .ToList();
-            return View(products);
+            var count = _context.Products.Count();
+            var pageCount = (int)Math.Ceiling((decimal)(count) / take);
+
+            Pagination<Product> pagination = new Pagination<Product>(products, pageCount, page);
+
+            return View(pagination);
         }
         public IActionResult Create()
         {
