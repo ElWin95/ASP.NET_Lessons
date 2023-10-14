@@ -23,19 +23,21 @@ namespace FiorelloP416app.Areas.AdminArea.Controllers
 
         public IActionResult Index(int page=1, int take=4)
         {
-            var products = _context.Products
-                .Include(p=>p.Category)
+            var query = _context.Products.AsQueryable();
+            var products = query.Include(p => p.Category)
                 .Include(p => p.ProductImages)
                 .AsNoTracking()
-                .Skip((page-1)*take)
+                .Skip((page - 1) * take)
                 .Take(4)
                 .ToList();
-            var count = _context.Products.Count();
-            var pageCount = (int)Math.Ceiling((decimal)(count) / take);
 
-            Pagination<Product> pagination = new Pagination<Product>(products, pageCount, page);
+            Pagination<Product> pagination = new Pagination<Product>(products, CalculatePage(query.Count(),take), page);
 
             return View(pagination);
+        }
+        public int CalculatePage(int count, int take)
+        {
+            return (int)Math.Ceiling((decimal)(count) / take);
         }
         public IActionResult Create()
         {
