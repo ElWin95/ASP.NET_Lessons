@@ -98,6 +98,9 @@ namespace FiorelloP416app.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ConnectionId")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -582,29 +585,6 @@ namespace FiorelloP416app.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "AdminRoleId",
-                            ConcurrencyStamp = "f7d1d448-1498-45b0-9d1f-7f95d376c396",
-                            Name = "Admin",
-                            NormalizedName = "ADMIN"
-                        },
-                        new
-                        {
-                            Id = "SuperAdminRoleId",
-                            ConcurrencyStamp = "70f729b1-ef19-4eff-8543-9cf281b58667",
-                            Name = "SuperAdmin",
-                            NormalizedName = "SUPERADMIN"
-                        },
-                        new
-                        {
-                            Id = "MemberRoleId",
-                            ConcurrencyStamp = "d558eff1-2ddf-4947-91b6-bdb71d875f0c",
-                            Name = "Member",
-                            NormalizedName = "MEMBER"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

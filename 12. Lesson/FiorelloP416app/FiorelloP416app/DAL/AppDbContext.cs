@@ -37,39 +37,39 @@ namespace FiorelloP416.DAL
 
 
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            string Adminid = "AdminRoleId";
-            string Memberid = "MemberRoleId";
-            string SuperAdminid = "SuperAdminRoleId";
-            base.OnModelCreating(builder);
-            builder.Entity<IdentityRole>()
-                .HasData(
-                new IdentityRole
-                {
-                    Id = Adminid,
-                    Name = "Admin",
-                    NormalizedName = "ADMIN",
-                    ConcurrencyStamp = Guid.NewGuid().ToString()
+        //protected override void OnModelCreating(ModelBuilder builder)
+        //{
+        //    string Adminid = "AdminRoleId";
+        //    string Memberid = "MemberRoleId";
+        //    string SuperAdminid = "SuperAdminRoleId";
+        //    base.OnModelCreating(builder);
+        //    builder.Entity<IdentityRole>()
+        //        .HasData(
+        //        new IdentityRole
+        //        {
+        //            Id = Adminid,
+        //            Name = "Admin",
+        //            NormalizedName = "ADMIN",
+        //            ConcurrencyStamp = Guid.NewGuid().ToString()
 
-                }, new IdentityRole
-                {
-                    Id = SuperAdminid,
-                    Name = "SuperAdmin",
-                    NormalizedName = "SUPERADMIN",
-                    ConcurrencyStamp = Guid.NewGuid().ToString()
+        //        }, new IdentityRole
+        //        {
+        //            Id = SuperAdminid,
+        //            Name = "SuperAdmin",
+        //            NormalizedName = "SUPERADMIN",
+        //            ConcurrencyStamp = Guid.NewGuid().ToString()
 
-                }, new IdentityRole
-                {
-                    Id = Memberid,
-                    Name = "Member",
-                    NormalizedName = "MEMBER",
-                    ConcurrencyStamp = Guid.NewGuid().ToString()
+        //        }, new IdentityRole
+        //        {
+        //            Id = Memberid,
+        //            Name = "Member",
+        //            NormalizedName = "MEMBER",
+        //            ConcurrencyStamp = Guid.NewGuid().ToString()
 
-                }
-                );
+        //        }
+        //        );
 
-        }
+        //}
 
         //protected override void OnModelCreating(ModelBuilder builder)
         //{

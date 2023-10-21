@@ -8,5 +8,13 @@ namespace FiorelloP416app.Hubs
         {
             await Clients.All.SendAsync("ReceiveMessage", user, message);
         }
+        public override Task OnConnectedAsync()
+        {
+            return base.OnConnectedAsync();
+        }
+        public override Task OnDisconnectedAsync(Exception? exception)
+        {
+            return base.OnDisconnectedAsync(exception);
+        }
     }
 }
