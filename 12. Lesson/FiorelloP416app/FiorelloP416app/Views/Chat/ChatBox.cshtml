@@ -33,6 +33,7 @@
             {
                 <li class="list-group-item">
                     <span id="@item.Id" class="@(item.ConnectionId == null?"bg-offline":"bg-online")" style="display:inline-block; width:20px; height:20px; border-radius:50%;"></span>@item.FullName
+                    <a asp-controller="chat" asp-action="sendtouser" asp-route-userId="@item.Id">send message...</a>
                 </li>
             }
         </ul>
@@ -57,5 +58,8 @@
     connection.on("DisConnect", function (userId) {
         document.getElementById(userId).classList.add("bg-offline")
         document.getElementById(userId).classList.remove("bg-online")
+    })
+    connection.on("RecieveFromUser", function (userId) {
+        alert("Salam");
     })
 </script>

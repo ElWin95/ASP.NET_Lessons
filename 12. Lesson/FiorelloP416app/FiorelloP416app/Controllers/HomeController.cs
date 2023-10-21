@@ -12,12 +12,12 @@ namespace FiorelloP416app.Controllers
     public class HomeController : Controller
     {
         private readonly AppDbContext _appDbContext;
-        //private readonly IHubContext<ChatHub> _hub;
+        private readonly IHubContext<ChatHub> _hub;
 
-        public HomeController(AppDbContext appDbContext /*IHubContext<ChatHub> hub*/)
+        public HomeController(AppDbContext appDbContext, IHubContext<ChatHub> hub)
         {
             _appDbContext = appDbContext;
-            //_hub = hub;
+            _hub = hub;
         }
 
         public IActionResult Index()
