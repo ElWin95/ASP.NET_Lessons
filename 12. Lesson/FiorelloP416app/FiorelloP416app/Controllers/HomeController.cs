@@ -1,8 +1,10 @@
 ﻿using FiorelloP416.DAL;
 using FiorelloP416.Entities;
 using FiorelloP416app.Entities;
+using FiorelloP416app.Hubs;
 using FiorelloP416app.ModelViews;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 
 namespace FiorelloP416app.Controllers
@@ -10,14 +12,17 @@ namespace FiorelloP416app.Controllers
     public class HomeController : Controller
     {
         private readonly AppDbContext _appDbContext;
+        //private readonly IHubContext<ChatHub> _hub;
 
-        public HomeController(AppDbContext appDbContext)
+        public HomeController(AppDbContext appDbContext /*IHubContext<ChatHub> hub*/)
         {
             _appDbContext = appDbContext;
+            //_hub = hub;
         }
 
         public IActionResult Index()
         {
+            //_hub.Clients.Client("").SendAsync("");
             HomeVM vm = new ();
             vm.Sliders = _appDbContext.Sliders.ToList();
             vm.SliderContent = _appDbContext.SliderContents.FirstOrDefault();
