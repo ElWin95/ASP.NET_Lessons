@@ -1,0 +1,28 @@
+﻿@model List<Book>
+@{
+    ViewData["Title"] = "Index";
+}
+@if (Model.Count>0)
+{
+    @foreach (var book in Model)
+    {
+        <h1>@book.Name</h1>
+        @foreach (var bookAuthor in book.BookAuthors)
+        {
+            <span>@bookAuthor.Author.Name</span>
+        }
+        <hr/>
+        @foreach (var bookGenre in book.BookGenres)
+        {
+            <span>@bookGenre.Genre.Name</span>
+        }
+        @foreach (var item in book.BookImages)
+        {
+            <img src="~/img/@item.ImageUrl" width="200" height="200"/>
+        }
+    }
+}
+else
+{
+    <h1>empty list</h1>
+}

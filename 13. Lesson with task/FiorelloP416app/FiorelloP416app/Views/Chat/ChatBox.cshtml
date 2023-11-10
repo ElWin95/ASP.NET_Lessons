@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "ChatBox";
+}
+<div class="container">
+    <div class="col-6">
+        <div class="row p-1">
+            <div class="col-1">User</div>
+            <div class="col-5"><input type="text" id="userInput" /></div>
+        </div>
+        <div class="row p-1">
+            <div class="col-1">Message</div>
+            <div class="col-5"><input type="text" class="w-100" id="messageInput" /></div>
+        </div>
+        <div class="row p-1">
+            <div class="col-6 text-end">
+                <input type="button" id="sendButton" value="Send Message" />
+            </div>
+        </div>
+        <div class="row p-1">
+            <div class="col-6">
+                <hr />
+            </div>
+        </div>
+        <div class="row p-1">
+            <div class="col-6">
+                <ul id="messagesList"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <ul class="list-group">
+            @foreach (var item in ViewBag.Users)
+            {
+                <li class="list-group-item">
+                    <span id="@item.Id" class="@(item.ConnectionId == null?"bg-offline":"bg-online")" style="display:inline-block; width:20px; height:20px; border-radius:50%;"></span>@item.FullName
+                    <a asp-controller="chat" asp-action="sendtouser" asp-route-userId="@item.Id">send message...</a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.12/signalr.min.js" integrity="sha512-rQm2bvVuqEjdaJKcVj/+bx+FnccQCHZpBIMQRJkyDACamQ12m6XuFb2aHQYgdTEnnHNIsAMeh1hODKwm2Uvy5A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+    connection.start();
+    document.getElementById("sendButton").addEventListener("click", function () {
+        var user = document.getElementById("userInput").value;
+        var message = document.getElementById("messageInput").value;
+        connection.invoke("SendMessage", user, message);
+    })
+    connection.on("ReceiveMessage", function (user, message) {
+        console.log(user + " " + message)
+    })
+    connection.on("OnConnect", function (userId) {
+        document.getElementById(userId).classList.add("bg-online")
+        document.getElementById(userId).classList.remove("bg-offline")
+    })
+    connection.on("DisConnect", function (userId) {
+        document.getElementById(userId).classList.add("bg-offline")
+        document.getElementById(userId).classList.remove("bg-online")
+    })
+    connection.on("RecieveFromUser", function (userId) {
+        alert("Salam");
+    })
+</script>

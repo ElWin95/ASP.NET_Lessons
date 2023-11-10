@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\12. Lesson\\FiorelloP416app\\FiorelloP416app\\FiorelloP416app.csproj": {}
+    "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET MVC\\ASP.NET_Lessons\\12. Lesson\\FiorelloP416app\\FiorelloP416app\\FiorelloP416app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\12. Lesson\\FiorelloP416app\\FiorelloP416app\\FiorelloP416app.csproj": {
+    "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET MVC\\ASP.NET_Lessons\\12. Lesson\\FiorelloP416app\\FiorelloP416app\\FiorelloP416app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\12. Lesson\\FiorelloP416app\\FiorelloP416app\\FiorelloP416app.csproj",
+        "projectUniqueName": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET MVC\\ASP.NET_Lessons\\12. Lesson\\FiorelloP416app\\FiorelloP416app\\FiorelloP416app.csproj",
         "projectName": "FiorelloP416app",
-        "projectPath": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\12. Lesson\\FiorelloP416app\\FiorelloP416app\\FiorelloP416app.csproj",
+        "projectPath": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET MVC\\ASP.NET_Lessons\\12. Lesson\\FiorelloP416app\\FiorelloP416app\\FiorelloP416app.csproj",
         "packagesPath": "C:\\Users\\emust\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\12. Lesson\\FiorelloP416app\\FiorelloP416app\\obj\\",
+        "outputPath": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET MVC\\ASP.NET_Lessons\\12. Lesson\\FiorelloP416app\\FiorelloP416app\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

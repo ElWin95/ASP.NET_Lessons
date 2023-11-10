@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0ib3fNvpaBUsY8JGvu2wvF7kdRGi7D5dsilZp9e+vHkVLZaNG/TBHS2g3UgJn8Z7Gv9B/V2lFBrLgWmtVL/cwg==",
+  "dgSpecHash": "c/lgdyoFYyCAGZbQLvc5GC4FVygyCqC/P5hi7bI2UY4aVDtyGXX/VmDuz2G0ZJIsyHG/1sFLhv5em7e7X2ONwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET\\ASP.NET_Lessons\\12. Lesson\\FiorelloP416app\\FiorelloP416app\\FiorelloP416app.csproj",
+  "projectFilePath": "C:\\Users\\emust\\Documents\\ElvinP416\\04. ASP.NET MVC\\ASP.NET_Lessons\\12. Lesson\\FiorelloP416app\\FiorelloP416app\\FiorelloP416app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emust\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\emust\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
