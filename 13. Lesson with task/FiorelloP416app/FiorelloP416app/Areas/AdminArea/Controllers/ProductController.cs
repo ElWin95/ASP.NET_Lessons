@@ -94,17 +94,23 @@ namespace FiorelloP416app.Areas.AdminArea.Controllers
         }
         public IActionResult Update(int? id)
         {
+            ViewBag.Categories = new SelectList(_context.Categories.ToList(), "Id", "Name");
+
             if (id == null) return NotFound();
             var existProduct = _context.Products.FirstOrDefault(c => c.Id == id);
             if (existProduct == null) return NotFound();
             var updateSliderVM = new UpdateProductVM { Id = existProduct.Id, Name = existProduct.Name, Price = existProduct.Price, Count = existProduct.Count };
             return View(updateSliderVM);
         }
+
+
+
         [HttpPost]
         [AutoValidateAntiforgeryToken]
         public IActionResult Update(UpdateProductVM updateProductVM)
         {
             ViewBag.Categories = new SelectList(_context.Categories.ToList(), "Id", "Name");
+
             if (!ModelState.IsValid) return View();
             var existProduct = _context.Products.FirstOrDefault(c => c.Id == updateProductVM.Id);
             if (_context.Categories.Any(c => c.Name == updateProductVM.Name && c.Id != existProduct.Id))

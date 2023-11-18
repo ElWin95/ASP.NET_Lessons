@@ -3,6 +3,7 @@
     ViewData["Title"] = "Detail";
 }
 <h1>@Model.Name</h1>
+<img width="250" src="~/img/@Model.ProductImages.Where(i=>i.IsMain).FirstOrDefault(i=>i.ProductId==Model.Id).ImageUrl" />
 <p>@Model.Category.Name</p>
 <p>@Model.Price</p>
 
